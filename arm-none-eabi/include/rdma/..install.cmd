@@ -1,0 +1,1 @@
+cmd_/tmp/toolchain/include/rdma/.install := perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/rdma /tmp/toolchain/include/rdma arm ib_user_mad.h; perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/rdma /tmp/toolchain/include/rdma arm ; touch /tmp/toolchain/include/rdma/.install

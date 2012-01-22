@@ -1,0 +1,1 @@
+cmd_/tmp/toolchain/include/linux/wimax/.install := perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/wimax /tmp/toolchain/include/linux/wimax arm i2400m.h; perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/wimax /tmp/toolchain/include/linux/wimax arm ; touch /tmp/toolchain/include/linux/wimax/.install

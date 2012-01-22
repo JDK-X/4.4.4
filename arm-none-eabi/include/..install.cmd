@@ -1,0 +1,1 @@
+cmd_/tmp/toolchain/include/.install := perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include /tmp/toolchain/include arm ; perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include /tmp/toolchain/include arm ; touch /tmp/toolchain/include/.install

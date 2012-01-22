@@ -1,0 +1,1 @@
+cmd_/tmp/toolchain/include/linux/can/.install := perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/can /tmp/toolchain/include/linux/can arm bcm.h error.h raw.h; perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/can /tmp/toolchain/include/linux/can arm ; touch /tmp/toolchain/include/linux/can/.install

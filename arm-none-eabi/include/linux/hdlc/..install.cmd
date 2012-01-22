@@ -1,0 +1,1 @@
+cmd_/tmp/toolchain/include/linux/hdlc/.install := perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/hdlc /tmp/toolchain/include/linux/hdlc arm ioctl.h; perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/hdlc /tmp/toolchain/include/linux/hdlc arm ; touch /tmp/toolchain/include/linux/hdlc/.install

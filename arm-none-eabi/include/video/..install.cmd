@@ -1,0 +1,1 @@
+cmd_/tmp/toolchain/include/video/.install := perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/video /tmp/toolchain/include/video arm edid.h sisfb.h uvesafb.h; perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/video /tmp/toolchain/include/video arm ; touch /tmp/toolchain/include/video/.install

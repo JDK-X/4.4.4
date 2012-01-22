@@ -1,0 +1,1 @@
+cmd_/tmp/toolchain/include/linux/spi/.install := perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/spi /tmp/toolchain/include/linux/spi arm spidev.h; perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/spi /tmp/toolchain/include/linux/spi arm ; touch /tmp/toolchain/include/linux/spi/.install

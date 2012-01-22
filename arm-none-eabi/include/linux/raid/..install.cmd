@@ -1,0 +1,1 @@
+cmd_/tmp/toolchain/include/linux/raid/.install := perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/raid /tmp/toolchain/include/linux/raid arm md_p.h md_u.h; perl scripts/headers_install.pl /mnt/hikari/android/dev/kernel/hero_2.6.29/include/linux/raid /tmp/toolchain/include/linux/raid arm ; touch /tmp/toolchain/include/linux/raid/.install
